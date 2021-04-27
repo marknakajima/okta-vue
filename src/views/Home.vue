@@ -17,14 +17,10 @@
                     <v-img src="img-home.png"></v-img>
 
                     <v-card-text>
-                        <p class="mb-6">
+                        <p class="mb-6 subtitle-1">
                             Congrats! You have logged in. Try logging in/out
-                            with the button on the top right
+                            with the button on the top right.
                         </p>
-
-                        <h4 class="mb-6 subtitle-1 text-uppercase text-center">
-                            Document links
-                        </h4>
 
                         <v-list>
                             <v-list-item
