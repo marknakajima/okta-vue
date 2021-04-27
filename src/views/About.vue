@@ -19,7 +19,7 @@
                     <v-card-text>
                         <p class="mb-6">
                             Welcome to the about page which is also protected.
-                            Try logging in/gout with the button on the top right
+                            Try logging in/out with the button on the top right
                         </p>
 
                         <h4 class="mb-6 subtitle-1 text-uppercase text-center">

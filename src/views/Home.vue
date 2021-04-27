@@ -18,7 +18,7 @@
 
                     <v-card-text>
                         <p class="mb-6">
-                            Congrats! You have logged in. Try logging in/gout
+                            Congrats! You have logged in. Try logging in/out
                             with the button on the top right
                         </p>
 
