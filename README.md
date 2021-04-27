@@ -12,9 +12,15 @@ Create a free account at Okta and and create application auth logic
 - Create a free account at Okta [https://developer.okta.com/signup/](https://developer.okta.com/signup/)
 - Login to your new Okta admin and click "Applications", "Add Application" then "Create New App"
 - Choose "SPA" for Platform then "Create"
-- Add any name for "Application name" then click "Add URI" under "Login redirect URIs" then enter "http://localhost:8080/implicit/callback"
+- Application settings
+    1. Name : any
+    2. Base URIs : http://localhost:8080/
+    3. Login redirect URIs : http://localhost:8080/implicit/callback
+	4. Logout redirect URIs : http://localhost:8080
+	5. Group assignments : Everyone
+	6. Grant type allowed : Checkbox checked for "Authorization Code" and "Implicit"
 - Note the "Client ID" and "Okta domain" after successful creation of the app logic. We will need to place these variables in our environment variables shortly.
-- Go back to "Applications" and make that these settings are in place. Under "General Settings" -> "Allow grant types", make sure "Authorization Code", "Implicit", "Allow ID Token with implicit grant type", "Allow Access Token with implicit grant type" checkboxes are all checked
+
 
 ## Create a user and assign them to the app
 
