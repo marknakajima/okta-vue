@@ -26,7 +26,7 @@ Now this user can access your app after with their email and password at the log
 
 ## Create .env files to store credentials
 
-Create a .env file in root and enter the credentials : "Okta domain" and "Client ID"
+Create a .env file in root and set up 2 variables with "Okta domain" and "Client ID"
 
 ```
 VUE_APP_OKTA_ISSUER={YOUR OKTA DOMAIN}/oauth2/default
