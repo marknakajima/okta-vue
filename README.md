@@ -1,6 +1,9 @@
 # JWT protected Vue app with Okta
 
-A walkthrough on how to add secure authentication to a Vue app with Okta in 10 minutes. 
+
+![](https://github.com/marknakajima/public_assets/blob/master/images/okta-vue/gh-logo.png)
+
+A walkthrough on adding secure authentication to a Vue app with Okta in 10 minutes. 
 
 ## Sign up for Okta 
 
